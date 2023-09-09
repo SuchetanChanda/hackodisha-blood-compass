@@ -2,22 +2,24 @@
 -- import: fastn-community.github.io/doc-site/common
 -- import: fastn-community.github.io/roboto-typography as typo
 -- import: fastn-community.github.io/doc-site as ds
+-- import: fastn-community.github.io/dark-flame-cs
 -- import: fastn-community.github.io/banner
 -- import: blood-compass/assets
 -- import: fifthtry.github.io/button
 
 -- ds.page: Blood Compass
+colors: $dark-flame-cs.main
 document-title: Blood Compass Open Data
 document-description: Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
-site-logo: $assets.files.images.logo.png
+site-logo: $assets.files.images.blood-compass.png
 github-url: https://github.com/sayakongit/hackodisha-blood-compass
 github-icon: true
 site-name: NULL
 show-footer: false
 login-button: true
 site-url: https://www.google.com
-logo-width: 56
-logo-height: 60
+logo-width: 180
+logo-height: 80
 
 Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
 
