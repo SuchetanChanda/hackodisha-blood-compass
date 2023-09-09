@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'accounts',
     'donor',
-    'donation_request'
+    'donation_request',
+    'public'
 ]
 
 MIDDLEWARE = [
