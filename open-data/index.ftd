@@ -5,6 +5,18 @@
 -- import: fastn-community.github.io/banner
 -- import: blood-compass/assets
 -- import: fifthtry.github.io/button
+-- import: fastn/processors as pr
+
+-- record result:
+string current_date:
+integer donor_count: 0
+integer users_count: 0
+integer fulfilled_requests: 0
+integer pending_requests: 0
+
+-- result r:
+$processor$: pr.http
+url: http://localhost:8000/public/v1/
 
 -- ds.page: Blood Compass
 document-title: Blood Compass Open Data
@@ -26,7 +38,7 @@ Opening our blood donor and receiver data to the public promotes transparency, t
 -- button.button: Join us
 role: tertiary
 large: true
-link: https://www.google.com
+link: http://localhost:5173/
 
 -- ds.h1: Open data
 
@@ -47,7 +59,7 @@ height: fill-container
 -- ftd.text: Data collected till
 role: $inherited.types.heading-tiny
 
--- ftd.text: 10/09/23
+-- ftd.text: $r.current_date
 color: #52BB6E
 role: $inherited.types.heading-hero
 
@@ -65,7 +77,7 @@ height: fill-container
 -- ftd.text: Total users
 role: $inherited.types.heading-tiny
 
--- ftd.text: 13
+-- ftd.integer: $r.users_count
 color: #FEB93D
 role: $inherited.types.heading-hero
 
@@ -93,7 +105,7 @@ height: fill-container
 -- ftd.text: Completed Donations
 role: $inherited.types.heading-tiny
 
--- ftd.text: 4
+-- ftd.integer: $r.fulfilled_requests
 color: #52BB6E
 role: $inherited.types.heading-hero
 
@@ -111,7 +123,7 @@ height: fill-container
 -- ftd.text: Pending Requests
 role: $inherited.types.heading-tiny
 
--- ftd.text: 13
+-- ftd.integer: $r.pending_requests
 color: #FEB93D
 role: $inherited.types.heading-hero
 
@@ -129,7 +141,7 @@ height: fill-container
 -- ftd.text: Active Donors
 role: $inherited.types.heading-tiny
 
--- ftd.text: 7
+-- ftd.integer: $r.donor_count
 color: #2095FF
 role: $inherited.types.heading-hero
 
