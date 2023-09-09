@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -10,8 +12,6 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
 
 .logo-h1 {
     font-size: 3.2rem;
