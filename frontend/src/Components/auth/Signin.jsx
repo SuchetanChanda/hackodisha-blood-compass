@@ -137,14 +137,14 @@ const Signin = () => {
     <div>
       <Wapper>
         <Container_left>
-          <h1 className="logo-h1"> Sangnet </h1>
+          <h1 className="logo-h1"> BloodCompass </h1>
           <p>"Connecting Lives, Saving Futures."</p>
         </Container_left>
         <Container_right className="container_right sign-up">
           <div className="form-container sign-up">
             <div className="signup_text">
               <div className="auth-heading">
-                <p>Sign up to Sangnet</p>
+                <p>Sign up to BloodCompass</p>
               </div>
             </div>
             <form onSubmit={handleSubmit} autoComplete="off">

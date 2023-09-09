@@ -17,25 +17,12 @@ const EditProfile = () => {
   const [inputErrorAddress, setinputErrorAddress] = useState(false);
   const { user, dispatch } = useAuthContext();
 
-  // const fetchProfileData = async (user_id) => {
-  //   try {
-  //     let { data } = await axios.get(
-  //       `http://localhost:8000/accounts/profile/${user_id}`
-  //     );
-  //     setprevData(data);
-  //     console.log("Data", data);
-  //   } catch (error) {
-  //     if (error) {
-  //       toast.error("Some error happened while retrieving your previous data");
-  //     }
-  //   }
-  // };
   const registerUser = async () => {
     try {
       setLoading(true);
-      const user_id = localStorage.getItem("user_id");
+      const access = localStorage.getItem("access");
       let { data } = await axios.put(
-        `http://localhost:8000/accounts/profile/${user_id}/`,
+        `http://localhost:8000/accounts/profile/`,
         {
           first_name: prevData.first_name,
           last_name: prevData.last_name,
@@ -45,6 +32,7 @@ const EditProfile = () => {
         {
           headers: {
             "Content-type": "application/json",
+            "Authorization": `Bearer ${access}`
           },
         }
       );
@@ -108,7 +96,7 @@ const EditProfile = () => {
   return (
     <div className="editContainer">
       <div className="editContainerLeft">
-        <h1 className="logo-h1">Sangnet</h1>
+        <h1 className="logo-h1">BloodCompass</h1>
       </div>
       <div className="editContainerRight">
         <div className="form-container sign-up">

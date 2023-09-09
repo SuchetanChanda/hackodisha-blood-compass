@@ -170,10 +170,13 @@ const Home = () => {
     return nearbyBloodBanks;
   };
 
-  const fetchUserProfile = async (user_id) => {
+  const fetchUserProfile = async (token) => {
     try {
-      const { data } = await axios.get(`${url}/accounts/profile/${user_id}`, {
-        headers: { "Content-Type": "application/json" },
+      const { data } = await axios.get(`${url}/accounts/profile/`, {
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
       });
       setDonorData(data);
       setLongitude(parseFloat(data.coordinates.longitude));
@@ -219,7 +222,7 @@ const Home = () => {
     checkAccess();
     fetchNearbyDonorData(user_id);
     setBloodBanksLocation(bloodBankData.blood_banks);
-    fetchUserProfile(user_id);
+    fetchUserProfile(token);
   }, []);
 
   const nearbyBloodBanks = findNearbyBloodBanks(5);

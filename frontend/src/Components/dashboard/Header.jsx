@@ -30,23 +30,6 @@ const Header = () => {
   const navigate = useNavigate();
   const access = localStorage.getItem("access");
   const refresh = localStorage.getItem("refresh");
-  // const gotoEdit = () => {
-  //   navigate("/edit-profile");
-  // };
-  // const fetchdata = async (user_id) => {
-  //   try {
-  //     let data = await axios.get(`${url}/accounts/profile/${user_id}`);
-  //     setResponse(data);
-  //     localStorage.setItem("is_donor", data.data.is_donor);
-  //     localStorage.setItem("donor_id", data.data.donor_id);
-  //   } catch (error) {
-  //     if (error.response.status === 400) {
-  //       toast.error(error.response.data.message);
-  //     } else {
-  //       toast.error("Something went wrong!");
-  //     }
-  //   }
-  // };
 
   const jsdate = () => {
     const isodate = new Date(user.created_at);
