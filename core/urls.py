@@ -22,4 +22,5 @@ urlpatterns = [
     path('accounts/',include('accounts.urls')),
     path('donor/',include('donor.urls')),
     path('donation/',include('donation_request.urls')),
+    path('public/',include('public.urls')),
 ]
