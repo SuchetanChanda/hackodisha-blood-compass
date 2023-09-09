@@ -2,7 +2,7 @@
 -- import: fastn-community.github.io/doc-site/common
 -- import: fastn-community.github.io/roboto-typography as typo
 -- import: fastn-community.github.io/doc-site as ds
--- import: fastn-community.github.io/dark-flame-cs
+-- import: fastn-community.github.io/midnight-storm-cs
 -- import: fastn-community.github.io/banner
 -- import: blood-compass/assets
 -- import: fifthtry.github.io/button
@@ -20,7 +20,7 @@ $processor$: pr.http
 url: http://localhost:8000/public/v1/
 
 -- ds.page: Blood Compass
-colors: $dark-flame-cs.main
+colors: $midnight-storm-cs.main
 document-title: Blood Compass Open Data
 document-description: Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
 site-logo: $assets.files.images.blood-compass.png
