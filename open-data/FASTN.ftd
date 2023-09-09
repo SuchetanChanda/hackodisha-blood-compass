@@ -1,0 +1,7 @@
+-- import: fastn
+
+-- fastn.package: test-fastn
+
+-- fastn.dependency: fifthtry.github.io/doc-site
+-- fastn.dependency: fifthtry.github.io/button
+
