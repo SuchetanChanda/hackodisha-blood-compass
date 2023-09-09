@@ -1,0 +1,125 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: test-fastn/assets
+-- import: fifthtry.github.io/button
+
+-- ds.page: Blood Compass
+site-logo: $assets.files.images.logo.png
+
+Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
+
+-- button.button: Visit site
+role: tertiary
+large: true
+link: index.html
+
+-- ds.h1: Open data
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 10
+;; spacing: space-between
+
+-- ftd.column: 
+background.solid: #E0ECE4
+padding.px: 20
+border-width.px: 1
+border-radius.px: 6
+width: fill-container
+height: fill-container
+
+
+-- ftd.text: Data collected till
+role: $inherited.types.heading-tiny
+
+-- ftd.text: 10/09/23
+color: #52BB6E
+role: $inherited.types.heading-hero
+
+-- end: ftd.column
+
+-- ftd.column: 
+background.solid: #FFF8EB
+padding.px: 20
+border-width.px: 1
+border-radius.px: 6
+width: fill-container
+height: fill-container
+
+
+-- ftd.text: Total users
+role: $inherited.types.heading-tiny
+
+-- ftd.text: 13
+color: #FEB93D
+role: $inherited.types.heading-hero
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+;; LOWER CARDS
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 10
+;; spacing: space-between
+
+-- ftd.column: 
+background.solid: #E0ECE4
+padding.px: 20
+border-width.px: 1
+border-radius.px: 6
+width: fill-container
+height: fill-container
+
+
+-- ftd.text: Completed Donations
+role: $inherited.types.heading-tiny
+
+-- ftd.text: 4
+color: #52BB6E
+role: $inherited.types.heading-hero
+
+-- end: ftd.column
+
+-- ftd.column: 
+background.solid: #FFF8EB
+padding.px: 20
+border-width.px: 1
+border-radius.px: 6
+width: fill-container
+height: fill-container
+
+
+-- ftd.text: Pending Requests
+role: $inherited.types.heading-tiny
+
+-- ftd.text: 13
+color: #FEB93D
+role: $inherited.types.heading-hero
+
+-- end: ftd.column
+
+-- ftd.column: 
+background.solid: #E8F5FE
+padding.px: 20
+border-width.px: 1
+border-radius.px: 6
+width: fill-container
+height: fill-container
+
+
+-- ftd.text: Active Donors
+role: $inherited.types.heading-tiny
+
+-- ftd.text: 7
+color: #2095FF
+role: $inherited.types.heading-hero
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ds.page
