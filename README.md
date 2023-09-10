@@ -2,7 +2,7 @@
     <img width="500" height="300" src="https://www.hackodisha.tech/Images/Group%208.svg" alt="HackOdisha 3.0">
 </p>
 
-# 🚀 BloodCompass | HackOdisha 3.0
+# 🧭 BloodCompass | HackOdisha 3.0
 
 This repository contains a project that combines Django, Django REST Framework, React, Vite and Fastn to create a web application with a robust backend and a dynamic frontend.
 
