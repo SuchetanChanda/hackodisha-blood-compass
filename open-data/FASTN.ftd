@@ -25,5 +25,5 @@
 ## All time: /open
 
 # Login
-url: https://example.com/login/
+url: http://localhost:5173/login
 
