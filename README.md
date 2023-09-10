@@ -1,17 +1,17 @@
 ﻿<p align="center">
-    <img width="400" height="300" src="https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/384309ff9cca415f963a23c99b5eb8a1/assets/logo/565.png" alt="HackOdisha 3.0">
+    <img width="500" height="300" src="https://www.hackodisha.tech/Images/Group%208.svg" alt="HackOdisha 3.0">
 </p>
 
 # 🚀 BloodCompass | HackOdisha 3.0
 
-This repository contains a project that combines Django, Django REST Framework, React, Vite and FastN to create a web application with a robust backend and a dynamic frontend.
+This repository contains a project that combines Django, Django REST Framework, React, Vite and Fastn to create a web application with a robust backend and a dynamic frontend.
 
 ## Project Structure
 
 The project is organized into two main folders:
 
 - `backend`: Contains the Django application responsible for handling API requests and database interactions.
-- `frontend`: Contains the React application built using Vite & FastN, providing a modern and efficient development experience for the frontend.
+- `frontend`: Contains the React application built using Vite & Fastn, providing a modern and efficient development experience for the frontend.
 
 
 ## Backend (Django) 📦
@@ -62,9 +62,9 @@ The backend is built using Django and Django REST Framework, providing a RESTful
    ```
 5. Navigate to `http://localhost:8000` to view the API.
 
-## Frontend (React with Vite & FastN) ⚛️
+## Frontend (React with Vite & Fastn) ⚛️
 
-The frontend is built using React, Vite and FastN, providing fast development and hot module replacement for efficient code changes. The frontend offers a user-friendly interface to interact with the API provided by the Django backend.
+The frontend is built using React, Vite and Fastn, providing fast development and hot module replacement for efficient code changes. The frontend offers a user-friendly interface to interact with the API provided by the Django backend.
 
 ### Setting Up the Vite Server 🛠️
 
@@ -82,17 +82,17 @@ The frontend is built using React, Vite and FastN, providing fast development an
    ```
 4. Navigate to `http://localhost:5173` to view the frontend.
 
-### Setting Up the FastN Server 🛠️
+### Setting Up the Fastn Server 🛠️
 
-1. Install FastN in your local environment:
-   Refer to the official documents [FastN Documentation](https://fastn.com/install/)
+1. Install Fastn in your local environment:
+   Refer to the official documents [Fastn Documentation](https://Fastn.com/install/)
 2. Navigate to the `open-data` folder:
    ```bash
     cd open-data
    ```
-3. Start the FastN development server:
+3. Start the Fastn development server:
    ```bash
-    fastn serve --port 8006 --edition=2023
+    Fastn serve --port 8006 --edition=2023
    ```
 4. Navigate to `http://localhost:8006` to view BloodCompass | Open.
 
@@ -108,4 +108,4 @@ The frontend is built using React, Vite and FastN, providing fast development an
 - Django REST Framework: [https://www.django-rest-framework.org/](https://www.django-rest-framework.org/)
 - React: [https://reactjs.org/](https://reactjs.org/)
 - Vite: [https://vitejs.dev/](https://vitejs.dev/)
-- FastN: [https://fastn.com/home/](https://fastn.com/home/)
+- Fastn: [https://Fastn.com/home/](https://Fastn.com/home/)
