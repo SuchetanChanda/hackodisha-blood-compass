@@ -6,20 +6,8 @@
 -- import: fastn-community.github.io/banner
 -- import: blood-compass/assets
 -- import: fifthtry.github.io/button
--- import: fastn/processors as pr
 
--- record result:
-string current_date:
-integer donor_count: 0
-integer users_count: 0
-integer fulfilled_requests: 0
-integer pending_requests: 0
-
--- result r:
-$processor$: pr.http
-url: http://localhost:8000/public/v1/
-
--- ds.page: Blood Compass🧭
+-- ds.page:
 colors: $midnight-storm-cs.main
 document-title: Blood Compass Open Data
 document-description: Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
@@ -31,22 +19,28 @@ show-footer: false
 site-url: /
 logo-width: 200
 logo-height: 80
+sidebar: true
 
+-- ds.page.right-sidebar:
 
-Blood Compass is a groundbreaking platform designed to revolutionize blood donation and recipient mapping. Our mission is simple yet profoundly impactful- connecting donors with individuals urgently in need of blood.
+-- ds.h3: Meet the authors😎
 
-With Blood Compass, finding a blood donor or recipient is easier and more efficient than ever before. Our user-friendly interface allows donors to register and specify their blood type, availability, and location. Simultaneously, recipients can search for donors based on their specific requirements and reach out in times of need.
+- [Sayak Saha](https://www.linkedin.com/in/sayaksaha10/)
+- [Suchetan Chanda](https://www.linkedin.com/in/suchetanchanda/)
 
+-- ds.compact-text: Contribute🤝
 
+We welcome you to join our [Quine](https://quine.sh/repo/sayakongit-hackodisha-blood-compass-689227652) community today.
 
--- button.button: Join us
-role: tertiary
-large: true
-link: http://localhost:5173/
+Our product, Blood Compass, connects donors with recipients. Join Quine to enhance it. Developers, designers, advocates, and ideas welcome. Together, let's save lives!
 
--- ftd.image:
-src: $assets.files.images.banner.png
-width: fill-container
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+-- ds.h1: About Us👋
+
+This is body content of your page.
 
 
 -- end: ds.page

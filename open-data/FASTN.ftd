@@ -8,3 +8,22 @@
 -- fastn.dependency: fastn-community.github.io/banner
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs
 
+
+-- fastn.sitemap:
+
+# Home: /
+# About us: /about
+
+- Docs📃: /
+- Setup Guide💻: /
+  - 1. Backend🐍: /
+  - 2. Frontend⚛️: /
+  - 3. Fastn⚡: /
+
+# Open: /open
+## Today: /open/today
+## All time: /open/all
+
+# Login
+url: https://example.com/login/
+
